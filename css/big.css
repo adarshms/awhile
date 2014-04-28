@@ -924,27 +924,27 @@ FLIPBOARD - DESKTOP/TABLET/MOBILE
 */
 @font-face {
   font-family: "HelveticaNeueThCn";
-  src: url('/static/stylesheets/fonts/HelveticaNeueLTCom-ThCn.ttf') format('truetype'), url('/static/stylesheets/fonts/HelveticaNeueLTCom-ThCn.woff') format('woff');
+  src: url('../fonts/HelveticaNeueLTCom-ThCn.ttf') format('truetype'), url('../fonts/HelveticaNeueLTCom-ThCn.woff') format('woff');
 }
 
 @font-face {
   font-family: "HelveticaNeueLtCn";
-  src: url('../fonts/helvetica.ttf') format('truetype'), url('/static/stylesheets/fonts/HelveticaNeueLTCom-LtCn.woff') format('woff');
+  src: url('../fonts/HelveticaNeueLTCom-LtCn.ttf') format('truetype'), url('../fonts/HelveticaNeueLTCom-LtCn.woff') format('woff');
 }
 
 @font-face {
   font-family: "HelveticaNeueLtCnO";
-  src: url('/static/stylesheets/fonts/HelveticaNeueLTCom-LtCnO.ttf') format('truetype'), url('/static/stylesheets/fonts/HelveticaNeueLTCom-LtCnO.woff') format('woff');
+  src: url('../fonts/HelveticaNeueLTCom-LtCnO.ttf') format('truetype'), url('../fonts/HelveticaNeueLTCom-LtCnO.woff') format('woff');
 }
 
 @font-face {
   font-family: "HelveticaNeueMdCn";
-  src: url('/static/stylesheets/fonts/HelveticaNeueLTCom-MdCn.ttf') format('truetype'), url('/static/stylesheets/fonts/HelveticaNeueLTCom-MdCn.woff') format('woff');
+  src: url('../fonts/HelveticaNeueLTCom-MdCn.ttf') format('truetype'), url('../fonts/HelveticaNeueLTCom-MdCn.woff') format('woff');
 }
 
 @font-face {
   font-family: "HelveticaNeueBdCn";
-  src: url('/static/stylesheets/fonts/HelveticaNeueLTCom-BdCn.ttf') format('truetype'), url('/static/stylesheets/fonts/HelveticaNeueLTCom-BdCn.woff') format('woff');
+  src: url('../fonts/HelveticaNeueLTCom-BdCn.ttf') format('truetype'), url('../fonts/HelveticaNeueLTCom-BdCn.woff') format('woff');
 }
 
 /* line 50, ../sass/_flipboard.scss */
