@@ -1,147 +1,106 @@
 .top-buffer { 
 	margin-top:2px; 
 }
-.nav-pills .active a,
-.nav-pills .active a:hover{
-font-size:28px;
-	color:#424242;
-	font-family: "Calibri";
-}
-.nav-pills a {
-	font-size:24px;
-	color:#A4A4A4;
-	font-family: "Calibri";
-}
 
-sticky-social {
-  background: #FFF;
-  border: 1px solid #CCC;
-  border-right: none;
-  padding: 6px 0;
-  position: fixed;
-  right: 0;
-  text-align: center;
-  top: 130px;
-  width: 48px;
-  z-index: 11;
-  -moz-border-radius-topleft: 2px;
-  -webkit-border-top-left-radius: 2px;
-  border-top-left-radius: 2px;
-  -moz-border-radius-bottomleft: 2px;
-  -webkit-border-bottom-left-radius: 2px;
-  border-bottom-left-radius: 2px;
-}
-
-/* line 18, ../sass/_sticky-social.scss */
-.sticky-social--list-item a {
-  margin: 6px auto;
-}
-
-/* line 23, ../sass/_sticky-social.scss */
-.sticky-social__twitter-icon:hover {
-  background-image: url('../images/sprite.png');
-  background-position: 0 -1190px;
-  background-repeat: no-repeat;
-  display: block;
-  height: 24px;
-  width: 24px;
-}
-
-/* line 28, ../sass/_sticky-social.scss */
-.sticky-social__gplus-icon:hover {
-  background-image: url('../images/sprite.png');
-  background-position: 0 -1102px;
-  background-repeat: no-repeat;
-  display: block;
-  height: 24px;
-  width: 24px;
-}
-
-/* line 33, ../sass/_sticky-social.scss */
-.sticky-social__facebook-icon:hover {
-  background-image: url('../images/sprite.png');
-  background-position: 0 -1508px;
-  background-repeat: no-repeat;
-  display: block;
-  height: 24px;
-  width: 24px;
-}
-
-/* line 38, ../sass/_sticky-social.scss */
-.sticky-social__flipboard-icon:hover {
-  background-image: url('../images/sprite.png');
-  background-position: 0 -1737px;
-  background-repeat: no-repeat;
-  display: block;
-  height: 24px;
-  width: 24px;
-}
-
-	.lingrad {
-	/*
-		background-image: -ms-linear-gradient(top, #FFFFFF 0%, #F2F2F2 100%);
-		background-image: -moz-linear-gradient(top, #FFFFFF 0%, #F2F2F2 100%);
-		background-image: -o-linear-gradient(top, #FFFFFF 0%, #F2F2F2 100%);
-		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #F2F2F2));
-		background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #F2F2F2 100%);	
-		background-image: linear-gradient(to bottom, #FFFFFF 0%, #F2F2F2 100%);*/
-		
-		  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f8f8f8), color-stop(100%, #eeeeee));
-		  background-image: -webkit-linear-gradient(#f8f8f8, #eeeeee);
-		  background-image: -moz-linear-gradient(#f8f8f8, #eeeeee);
-		  background-image: -o-linear-gradient(#f8f8f8, #eeeeee);
-		  background-image: linear-gradient(#f8f8f8, #eeeeee);
-	}
+.lingrad {
+	height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+	background-image: -ms-linear-gradient(top, #FFFFFF 0%, #F2F2F2 100%);
+	background-image: -moz-linear-gradient(top, #FFFFFF 0%, #F2F2F2 100%);
+	background-image: -o-linear-gradient(top, #FFFFFF 0%, #F2F2F2 100%);
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFFFFF), color-stop(1, #F2F2F2));
+	background-image: -webkit-linear-gradient(top, #FFFFFF 0%, #F2F2F2 100%);	
+	background-image: linear-gradient(to bottom, #FFFFFF 0%, #F2F2F2 100%);
 	
-	@font-face {
-		font-family: "HelveticaNeueLtCn";
-		src: url('../fonts/HelveticaNeueLTCom-LtCn.ttf') format('truetype'), url('../fonts/HelveticaNeueLTCom-LtCn.woff') format('woff');
-	}
+	/*background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #f8f8f8), color-stop(100%, #eeeeee));
+	background-image: -webkit-linear-gradient(#f8f8f8, #eeeeee);
+	background-image: -moz-linear-gradient(#f8f8f8, #eeeeee);
+	background-image: -o-linear-gradient(#f8f8f8, #eeeeee);
+	background-image: linear-gradient(#f8f8f8, #eeeeee);*/
+}
 	
-	.description {
-		font-family: "HelveticaNeueLtCn", "HelveticaNeueW01-47LtCn 692686", Helvetica, sans-serif;
-		font-size: 16px;
-		color: #848484;
-		text-align: justified;
-	}
+/* Fonts and text */
 	
-	h1 {
-		font-family: "HelveticaNeueLtCn", "HelveticaNeueW01-47LtCn 692686", Helvetica, sans-serif;
-		font-size: 30px;
-		font-weight: bold;
-		color: #848484;
-		text-align: center;
-	}
-	
-	.nav > li > a {
-		font-family: "HelveticaNeueLtCn", "HelveticaNeueW01-47LtCn 692686", Helvetica, sans-serif;
-		font-size: 18px;
-		color: #848484;
-	}
-	.nav > li > a:hover,
-	.nav > li > a:focus {
-		text-decoration: none;
-		background-color: transparent;
-		font-family: "HelveticaNeueLtCn", "HelveticaNeueW01-47LtCn 692686", Helvetica, sans-serif;
-		color: #2E2E2E;
-	}
-	
-	.masternav {
-		/*border-width: 0 0 10px 0;
-		-webkit-border-image: -webkit-gradient(radial, center bottom, 0, center bottom, 561, color-stop(0, #848484), color-stop(1, #FFFFFF));
-		-webkit-border-image: -webkit-radial-gradient(center bottom, circle farthest-corner, #848484 0%, #FFFFFF 100%);		
-		-o-border-image: -o-radial-gradient(center bottom, circle farthest-corner, #848484 0%, #FFFFFF 100%);		
-		-moz-border-image: -moz-radial-gradient(center bottom, circle farthest-corner, #848484 0%, #FFFFFF 100%);*/
-		
-	}
-	
-	.resize_fit_center {
-    max-width:100%;
-    max-height:100%;
-    vertical-align: middle;
+@font-face {
+	font-family: "HelveticaNeueLtCn";
+	src: url('../fonts/HelveticaNeueLTCom-LtCn.ttf') format('truetype'), url('../fonts/HelveticaNeueLTCom-LtCn.woff') format('woff');
+}
+
+.description {
+	font-family: "HelveticaNeueLtCn", "HelveticaNeueW01-47LtCn 692686", Helvetica, sans-serif;
+	font-size: 16px;
+	color: #848484;
+	text-align: justified;
+}
+
+h1 {
+	font-family: "HelveticaNeueLtCn", "HelveticaNeueW01-47LtCn 692686", Helvetica, sans-serif;
+	font-size: 30px;
+	font-weight: bold;
+	color: #848484;
+	text-align: justified;
+}
+
+/* Navigation bar */
+
+.masternav {
+	/*border-width: 0 0 10px 0;
+	-webkit-border-image: -webkit-gradient(radial, center bottom, 0, center bottom, 561, color-stop(0, #848484), color-stop(1, #FFFFFF));
+	-webkit-border-image: -webkit-radial-gradient(center bottom, circle farthest-corner, #848484 0%, #FFFFFF 100%);		
+	-o-border-image: -o-radial-gradient(center bottom, circle farthest-corner, #848484 0%, #FFFFFF 100%);		
+	-moz-border-image: -moz-radial-gradient(center bottom, circle farthest-corner, #848484 0%, #FFFFFF 100%);*/
+}
+
+.nav > li > a {
+	font-family: "HelveticaNeueLtCn", "HelveticaNeueW01-47LtCn 692686", Helvetica, sans-serif;
+	font-size: 18px;
+	color: #848484;
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+	text-decoration: none;
+	background-color: transparent;
+	font-family: "HelveticaNeueLtCn", "HelveticaNeueW01-47LtCn 692686", Helvetica, sans-serif;
+	color: #2E2E2E;
+}
+
+/* Quote image */
+.quote {
+	margin-left:auto;
+	margin-right:auto;
+	opacity: 0.6;
+    filter: alpha(opacity=40);
+	max-height:100%;
+	max-width:100%;
+	vertical-align: middle;
+}
+
+
+
+/* Download app images */
+
+.download_icon {
+	margin-left:auto;
+	margin-right:auto;
+	max-width:140px;
+	max-height:50px;
+	vertical-align: middle;
+}
+
+.screenview {
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	max-width:100%;
+	max-height:75%;
+	opacity: 0.8;
+	filter: alpha(opacity=40);
+	vertical-align: middle;
 }
 
 .disabled_look {
     opacity: 0.2;
-    filter: alpha(opacity=40); /* msie */
+    filter: alpha(opacity=40);
 }
