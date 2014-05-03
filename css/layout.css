@@ -93,34 +93,72 @@ h1 {
 	display: block;
 	margin-left:auto;
 	margin-right:auto;
-	max-width:100%;
+	max-width:80%;
 	max-height:75%;
 	opacity: 0.8;
-	filter: alpha(opacity=40);
+	filter: alpha(opacity=80);
 	vertical-align: middle;
 }
 
 .disabled_look {
     opacity: 0.2;
-    filter: alpha(opacity=40);
+    filter: alpha(opacity=20);
 }
 
 /* Carousel */
-
-a.carousel-control
-{
+.carousel-control {
+  position: absolute;
   top: 45%;
-  left: 8px;
+  bottom: 0;
+  left: 0;
   width: 40px;
-  height: 40px;
-  margin-top: 0px;
+  height:40px;
   font-size: 48px;
+  color: #fff;
   font-weight: 100;
   line-height: 30px;
-  color: #fff;
   text-align: center;
   background: #222;
   border: 3px solid #fff;
   border-radius: 50%;
-  opacity: 0.3;
+  filter: alpha(opacity=20);
+  opacity: .2;
+}
+
+/* Carousel indicators */
+
+.carousel-indicators {
+  position: absolute;
+  bottom: -10%;
+  left: 50%;
+  z-index: 15;
+  width: 60%;
+  padding-left: 0;
+  margin-left: -30%;
+  text-align: center;
+  list-style: none;
+}
+
+.carousel-control .icon-next,
+.carousel-control .glyphicon-chevron-right {
+  right: 0;
+}
+
+.carousel-indicators li {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 1px;
+  text-indent: -999px;
+  cursor: pointer;
+  background-color: #000 \9;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid #aaa;
+  border-radius: 10px;
+}
+.carousel-indicators .active {
+  width: 12px;
+  height: 12px;
+  margin: 0;
+  background-color: #aaa;
 }
