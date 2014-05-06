@@ -2,6 +2,10 @@
 	margin-top:2px; 
 }
 
+.spacer { 
+	margin-top:50px; 
+}
+
 .lingrad {
 	height: 100%;
     margin: 0;
@@ -78,6 +82,13 @@ h1 {
 	max-width:140px;
 	max-height:50px;
 	vertical-align: middle;
+}
+
+.twfbicon {
+	max-width:60%;
+	max-height:60%;
+	opacity: 0.8;
+	filter: alpha(opacity=80);
 }
 
 .screenview {
